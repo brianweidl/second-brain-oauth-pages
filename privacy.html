@@ -5,75 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Política de privacidad — second-brain</title>
 <style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    max-width: 640px;
-    margin: 4rem auto;
-    padding: 0 1.5rem;
-    line-height: 1.6;
-    color: #1a1a1a;
-  }
-  h1 { font-size: 1.5rem; }
-  h2 { font-size: 1.1rem; margin-top: 2rem; }
+  body { font-family: -apple-system, sans-serif; max-width: 600px; margin: 4rem auto; padding: 0 1.5rem; line-height: 1.6; }
   a { color: #2563eb; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #666; }
 </style>
 </head>
 <body>
   <h1>Política de privacidad — second-brain</h1>
-
-  <h2>Qué es</h2>
-  <p>
-    second-brain es una aplicación personal, de un solo usuario, desarrollada
-    y usada exclusivamente por Brian Weidl. No se ofrece a terceros ni tiene
-    otros usuarios.
-  </p>
-
-  <h2>Qué datos accede</h2>
-  <p>
-    Con autorización OAuth de la propia cuenta de Google del usuario
-    (<code>weidlbrian@gmail.com</code>), la aplicación lee y escribe:
-  </p>
-  <ul>
-    <li>Eventos de Google Calendar (todos los calendarios visibles en esa cuenta, incluidos los compartidos en modo solo libre/ocupado).</li>
-    <li>Tareas de Google Tasks.</li>
-  </ul>
-
-  <h2>Para qué se usan</h2>
-  <p>
-    Los datos se sincronizan a una base de datos MySQL que corre localmente
-    en la computadora del usuario, para armar una vista unificada de agenda y
-    tareas dentro de su sistema personal de organización. Un asistente de IA
-    (Claude, de Anthropic) que corre en esa misma computadora lee y escribe
-    esos datos a pedido del usuario, como parte de ese mismo sistema personal.
-  </p>
-  <p>
-    Los datos no se comparten con terceros, no se venden, y no se usan con
-    fines publicitarios ni de ningún otro tipo fuera del uso personal descrito
-    acá.
-  </p>
-
-  <h2>Dónde se almacenan</h2>
-  <p>
-    Localmente, en la computadora del usuario. No se replican a servidores de
-    terceros, salvo backups propios que el usuario gestiona en su propia
-    infraestructura.
-  </p>
-
-  <h2>Cómo revocar el acceso</h2>
-  <p>
-    El usuario puede revocar el acceso en cualquier momento desde
-    <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>.
-    Al revocarlo, la aplicación deja de poder sincronizar datos nuevos. Los
-    datos ya sincronizados permanecen localmente hasta que el usuario los
-    borre.
-  </p>
-
-  <h2>Contacto</h2>
-  <p>weidlbrian@gmail.com</p>
-
-  <footer>
-    Última actualización: 24 de septiembre de 2026.
-  </footer>
+  <p>Aplicación personal de un solo usuario (Brian Weidl), sin otros usuarios ni fines comerciales.</p>
+  <p>Accede a eventos de Google Calendar y a Google Tasks de la cuenta autorizada, y los sincroniza a una base de datos local en la computadora del usuario, solo para uso personal. No se comparten con terceros.</p>
+  <p>Revocar acceso: <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a></p>
+  <p>Contacto: weidlbrian@gmail.com</p>
 </body>
 </html>
